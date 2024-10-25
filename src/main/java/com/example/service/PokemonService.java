@@ -1,10 +1,11 @@
-package de.service;
+package com.example.service;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import de.model.Pokemon;
-import de.repository.PokemonRepository;
+
+import com.example.model.Pokemon;
+import com.example.repository.PokemonRepository;
 
 import java.util.List;
 import java.util.Optional;

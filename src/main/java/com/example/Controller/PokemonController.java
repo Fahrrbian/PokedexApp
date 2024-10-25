@@ -1,4 +1,4 @@
-package de.Controller;
+package com.example.Controller;
 
 import java.util.List;
 
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import de.model.Pokemon;
-import de.service.PokemonService;
+import com.example.model.Pokemon;
+import com.example.service.PokemonService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/pokemon")
 public class PokemonController {
 
 	 private final PokemonService pokemonService;
