@@ -18,6 +18,8 @@ public class Pokemon {
     private String name;
     private String type;
     private String imageUrl;
+    private int i; 
+    private String string; 
 
     // Standard-Konstruktor
     public Pokemon() {}
@@ -29,7 +31,13 @@ public class Pokemon {
         this.imageUrl = imageUrl;
     }
 
-    // Getter und Setter
+    public Pokemon(int i, String string) {
+		// TODO Auto-generated constructor stub
+    	this.i = i; 
+    	this.string = string; 
+	}
+
+	// Getter und Setter
     public Long getId() {
         return id;
     }

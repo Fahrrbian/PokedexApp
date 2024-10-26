@@ -17,7 +17,7 @@ import com.example.model.Pokemon;
 import com.example.service.PokemonService;
 
 @RestController
-@RequestMapping("/api/pokemon")
+@RequestMapping("/pokemon")
 public class PokemonController {
 
 	 private final PokemonService pokemonService;
