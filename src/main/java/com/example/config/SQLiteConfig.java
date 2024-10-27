@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
-@Configuration 
+@Configuration
 public class SQLiteConfig {
 
 	@Bean

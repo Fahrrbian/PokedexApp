@@ -8,6 +8,6 @@ import com.example.model.Pokemon;
 
 @Repository
 public interface PokemonRepository extends JpaRepository<Pokemon, Long> {
-   
+
 }
 
